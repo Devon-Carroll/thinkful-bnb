@@ -1,3 +1,5 @@
+
+
 /* -------  General Styles ------- */
 
 body {
@@ -228,6 +230,14 @@ footer p {
     flex-wrap: wrap;
     
   }
+
+  .stayForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+  }
+  
   
   form label {
     font-weight: bold;
@@ -261,6 +271,7 @@ footer p {
     border: none;
     flex-direction: row;
     padding-top: 25px;
+    flex-wrap: wrap;
   }
 
   .item {
@@ -340,20 +351,20 @@ footer p {
     flex-direction: row;
   }
 
-}
+  
 
-.hostContainer {
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-}
+  .hostContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  }
 
-.hostPicture{
+  .hostPicture{
   display: flex;
   align-content: flex-end;
   width: 50%;
   align-self: center;
-}
+  }
 
 .ideasContainer{
   display: flex;
@@ -404,10 +415,5 @@ justify-content: space-between;
   margin-right: 10px;
 }
 
-.stayForm {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 100%;
-}
 
+}
