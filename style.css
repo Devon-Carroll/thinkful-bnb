@@ -171,6 +171,7 @@ form {
   flex-direction: column;
 }
 
+
 form label {
   font-weight: bold;
 }
@@ -219,7 +220,7 @@ footer p {
 /* -------  Media Query ------- */
 
 
-@media all and (min-width: 750px) {
+@media all and (min-width: 480px) {
 
   form {
     display: flex;
@@ -233,6 +234,7 @@ footer p {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    width: auto;
     
   }
   
@@ -421,8 +423,70 @@ footer p {
 
 }
 
-@media all and (min-width: 750px) and (max-width: 946px){
+@media all and (min-width: 480px) and (max-width: 950px){
   form input, form select{
     width: 125px;
+  }
+
+  form {
+    display: flex;
+    border: 2px solid #ff385c;
+    padding: 10px;
+    flex-direction: column;
+  }
+  
+  .stayForm{
+    align-items: center;
+    width: auto;
+  }
+  
+  form label {
+    font-weight: bold;
+  }
+  
+  form select,
+  form input {
+    margin-bottom: 20px;
+    width: 180px;
+    flex-direction: column;
+  }
+  
+  form button {
+    background-color: #ff385c;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 100%;
+    margin-right: 40;
+  }
+  
+  fieldset {
+    width: 99%;
+    display: flex;
+    padding-left: 0;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    flex-direction: column;
+  }
+  
+
+  .about {
+    flex-direction: column;
+  }
+
+  .aboutPictures{
+    display: flex;
+    align-items: center;
+  }
+  
+  .aboutContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
